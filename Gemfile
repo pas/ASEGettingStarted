@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-remove gem 'sqlite3'
 #In development we use mysql
 group :development do
   gem 'sqlite3'
